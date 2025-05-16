@@ -1,0 +1,17 @@
+<!-- templates/qr_code.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Scan QR Code</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        img { width: 250px; height: 250px; }
+    </style>
+</head>
+<body>
+    <h1>Scan this QR Code</h1>
+    <p>Scan this QR code with your mobile to open the registration form.</p>
+    <img src="{{ url_for('static', filename='qr_code.png') }}" alt="QR Code" />
+</body>
+</html>

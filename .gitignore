@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folder
+mycol/
+
+# SQLite database file (don't track the actual DB file)
+database/*.db
+
+# Flask instance folder (if any)
+instance/
+
+# IDE folders
+.idea/
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Environment variables
+.env
+
+# Logs and debug files
+*.log
+
+# QR code images (if generated dynamically and can be recreated)
+static/qr_code.png
